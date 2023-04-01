@@ -11,8 +11,8 @@ import '../../controller/welcome_controller.dart';
 import '../../widgets/button/primary_button.dart';
 
 class WelcomeScreen extends StatelessWidget {
- WelcomeScreen({super.key});
- final controller=Get.put(WelcomeController());
+  WelcomeScreen({super.key});
+  final controller = Get.put(WelcomeController());
 
   @override
   Widget build(BuildContext context) {
@@ -39,28 +39,29 @@ class WelcomeScreen extends StatelessWidget {
         ClipPath(
           // clipper:MyCustomClipper() ,
           child: Container(
-              alignment: Alignment.bottomCenter,
-              height: MediaQuery.of(context).size.height * 0.4,
-              decoration:  BoxDecoration(
-                borderRadius: BorderRadius.only(
-              bottomLeft: Radius.elliptical(350, 110),
-              bottomRight: Radius.elliptical(350, 110),
-                ),
-                color: CustomColor.secondearyColor,
+            alignment: Alignment.bottomCenter,
+            height: MediaQuery.of(context).size.height * 0.4,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.elliptical(350, 110),
+                bottomRight: Radius.elliptical(350, 110),
               ),
-              ),
-        ), Positioned(
-              top: MediaQuery.of(context).size.height*0.15,
-              left: MediaQuery.of(context).size.height*0.05,
-              child: Padding(
-                padding: EdgeInsets.only(bottom: Dimensions.marginSize),
-                child: Image.asset(
-                  Assets.welcomepet,
-                  height: MediaQuery.of(context).size.height * 0.34,
-                  fit: BoxFit.fill,
-                ),
-              ),
+              color: CustomColor.secondearyColor,
             ),
+          ),
+        ),
+        Positioned(
+          top: MediaQuery.of(context).size.height * 0.15,
+          left: MediaQuery.of(context).size.height * 0.05,
+          child: Padding(
+            padding: EdgeInsets.only(bottom: Dimensions.marginSize),
+            child: Image.asset(
+              Assets.welcomepet,
+              height: MediaQuery.of(context).size.height * 0.34,
+              fit: BoxFit.fill,
+            ),
+          ),
+        ),
       ],
     );
   }
@@ -70,8 +71,9 @@ class WelcomeScreen extends StatelessWidget {
       colors: <Color>[Color(0xff01BD70), Color(0xff8FCF4F)],
     ).createShader(const Rect.fromLTWH(200.0, 0.0, 40, 0.0));
     return Padding(
-      padding:
-          EdgeInsets.only(top: Dimensions.defaultPaddingSize*4,bottom: Dimensions.defaultPaddingSize),
+      padding: EdgeInsets.only(
+          top: Dimensions.defaultPaddingSize * 4,
+          bottom: Dimensions.defaultPaddingSize),
       child: Column(
         children: [
           RichText(
@@ -80,7 +82,7 @@ class WelcomeScreen extends StatelessWidget {
               style: CustomStyle.welcomeTextStyle,
               children: [
                 TextSpan(
-                  text: "PetSitter",
+                  text: "Woof-Meow",
                   style: TextStyle(
                       fontWeight: FontWeight.w700,
                       fontSize: Dimensions.extraLargeTextSize * 1.1,
@@ -107,20 +109,19 @@ class WelcomeScreen extends StatelessWidget {
           PrimaryButtonWidget(
             text: Strings.signIn,
             onPressed: () {
-             controller.onPressedSignIn();
+              controller.onPressedSignIn();
             },
           ),
-
-          addVerticalSpace(Dimensions.heightSize*1.3),
-
+          addVerticalSpace(Dimensions.heightSize * 1.3),
           PrimaryButtonWidget(
             text: Strings.signUP,
             borderColor: CustomColor.primaryColor,
             backgroundColor: CustomColor.transparent,
             textColor: CustomColor.primaryColor,
-             onPressed: (){
-               controller.onPressedSignUp();
-             },),
+            onPressed: () {
+              controller.onPressedSignUp();
+            },
+          ),
         ],
       ),
     );

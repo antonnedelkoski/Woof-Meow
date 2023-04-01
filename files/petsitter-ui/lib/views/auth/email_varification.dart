@@ -13,7 +13,6 @@ import 'package:petsitter/widgets/others/custom_appbar.dart';
 
 import '../../controller/auth/email_varification.dart';
 
-
 class EmailVarificatonScreen extends StatelessWidget {
   EmailVarificatonScreen({super.key});
   final controller = Get.put(EmailVarificationController());
@@ -22,10 +21,8 @@ class EmailVarificatonScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       backgroundColor: CustomColor.screenBGColor,
-      appBar: CustomAppBar(
-       
-        title: Strings.emailVerification),
+      backgroundColor: CustomColor.screenBGColor,
+      appBar: CustomAppBar(title: Strings.emailVerification),
       body: _bodyWidget(context),
     );
   }
@@ -60,8 +57,6 @@ class EmailVarificatonScreen extends StatelessWidget {
     );
   }
 
-  
-
   inputWidget(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(vertical: Dimensions.marginSize * 1.8),
@@ -77,38 +72,43 @@ class EmailVarificatonScreen extends StatelessWidget {
         PrimaryButtonWidget(
           text: Strings.submit,
           onPressed: () {
-           controller.onPressEmailVarification();
+            controller.onPressEmailVarification();
           },
         ),
         addVerticalSpace(Dimensions.heightSize),
         Obx(() => Visibility(
-          visible: controller.enableResend.value,
-          child: InkWell(
-                onTap: (){
-                 controller.resendCode();
+            visible: controller.enableResend.value,
+            child: InkWell(
+                onTap: () {
+                  controller.resendCode();
                 },
-            child: Text(Strings.resendCode,style: CustomStyle.subTitleTextStyle,))
-        ))
+                child: Text(
+                  Strings.resendCode,
+                  style: CustomStyle.subTitleTextStyle,
+                ))))
       ],
     );
   }
-  
+
   _timerWidget(BuildContext context) {
-    return Obx(() => Row(
+    return Obx(
+      () => Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Icon(Icons.access_time_outlined, color: CustomColor.primaryColor,),
+          const Icon(
+            Icons.access_time_outlined,
+            color: CustomColor.primaryColor,
+          ),
           SizedBox(width: Dimensions.widthSize * 0.4),
           Text(
-            controller.secondsRemaining.value >= 0 &&  controller.secondsRemaining.value <= 9
-                ?
-            '00:0${controller.secondsRemaining.value}'
-                :
-            '00:${controller.secondsRemaining.value}',
+            controller.secondsRemaining.value >= 0 &&
+                    controller.secondsRemaining.value <= 9
+                ? '00:0${controller.secondsRemaining.value}'
+                : '00:${controller.secondsRemaining.value}',
             style: CustomStyle.subTitleTextStyle,
           ),
-      ],
-    ),
+        ],
+      ),
     );
   }
 }

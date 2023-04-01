@@ -1,5 +1,5 @@
 class Strings {
-  static const String appName = 'Pet Sitter';
+  static const String appName = 'Woof-Meow';
 
   //splash screen
   static const String version = 'version';
@@ -18,7 +18,7 @@ class Strings {
 
   //welcome screen
   static const String welcomeTo = 'Welcome To';
-  static const String petSitter = 'PetSitter';
+  static const String petSitter = 'Woof-Meow';
   static const String weAreHappy = 'We are happy to see you here';
 
   //SignIn screen
@@ -83,7 +83,7 @@ class Strings {
   static const String myPets = 'My Pets';
   static const String skip = 'Skip';
   static const String yourPetWillbe =
-      'Your pet will love PetSitter! Here are some of the benefits when you add your pet details:';
+      'Your pet will love Woof-Meow! Here are some of the benefits when you add your pet details:';
   static const String recordVaccinations = 'Record Vaccinations';
   static const String reminderOnNext = 'Reminder on next vaccination';
   static const String healthyPetWalk = 'Healthy pet walk with map recorded';
@@ -126,7 +126,7 @@ class Strings {
   static const String arabianMau = 'Arabian Mau';
 
   static const String gotoMenu = 'Go to Menu';
-  static const String grigioCham = 'Grigio Cham';
+  static const String grigioCham = 'Luki Lui';
   static const String addAnotherPet = '''Add
 Another Pet''';
 
@@ -136,14 +136,14 @@ Another Pet''';
   static const String addiana = 'Addiana';
   static const String community = 'Community';
   static const String blog = 'Blog';
-  static const String brionalJhon = 'Brional Jhon';
-  static const String pricchionar = 'Pricchionar';
-  static const String merryChris = 'Merry Chris';
-  static const String howToPet='How to pet a cat or dog and when not to pet your cat or dog.';
+  static const String brionalJhon = 'Krste Gjorceski';
+  static const String pricchionar = 'Mihail Suloski';
+  static const String merryChris = 'Angela Tomevska';
+  static const String howToPet =
+      'Random blog text or an event related to your pet.';
   static const String review = 'Review';
   static const String monthAgo = '1 Month Ago';
-  static const String itIsALongEntable =
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ';
+  static const String itIsALongEntable = 'Random review from a customer. ';
 
 //Our Pates
   static const String fromUnited = 'from United States';
@@ -154,230 +154,213 @@ Another Pet''';
   static const String parilamaoun = 'Parilamaoun';
 
 //notification
-  static const String whyDoWe = "Why do we use it?";
-  static const String notifications= "Notifications";
-  static const String time = "08:30 AM";
-  static const String date = "May 20, 2022";
+  static const String whyDoWe = "Random notification";
+  static const String notifications = "Notifications";
+  static const String time = "12:30 PM";
+  static const String date = "February 20, 2023";
   static const String requestAccept = "Request Accept";
-  static const String notificationDetails = """It is a long established fact that a reader will
+  static const String notificationDetails =
+      """It is a long established fact that a reader will
 -istracted by the readable content...""";
 
-
 //selecte pet screen
-static const String requestForSitting = "Request for Sitting";
-static const String selectYourPets= "Select Your Pets";
-static const String continues = "Continue";
-
+  static const String requestForSitting = "Request for Sitting";
+  static const String selectYourPets = "Select Your Pets";
+  static const String continues = "Continue";
 
 //select details
-static const String sittingDetails='Sitting Details';
-static const String sittingLocation='Sitting Location';
-static const String selectSittingLocation='Select Sitting Location';
-static const String sittingUpto='Sitting Up to';
-static const String noteOptional='Note (Optional)';
-static const String sittingType='Sitting Type';
-static const String dayCare='Day Care';
-static const String nightCare='Night Care';
-static const String fullDay='Full Day';
-static const String selectSittingType='Select Sitting Type';
-static const String sittingFrom='Sitting From';
-static const String dates='Date';
-static const String times='Time';
-static const String note='Note (Optional)';
-static const String writeHere='Write here';
+  static const String sittingDetails = 'Sitting Details';
+  static const String sittingLocation = 'Sitting Location';
+  static const String selectSittingLocation = 'Select Sitting Location';
+  static const String sittingUpto = 'Sitting Up to';
+  static const String noteOptional = 'Note (Optional)';
+  static const String sittingType = 'Sitting Type';
+  static const String dayCare = 'Day Care';
+  static const String nightCare = 'Night Care';
+  static const String fullDay = 'Full Day';
+  static const String selectSittingType = 'Select Sitting Type';
+  static const String sittingFrom = 'Sitting From';
+  static const String dates = 'Date';
+  static const String times = 'Time';
+  static const String note = 'Note (Optional)';
+  static const String writeHere = 'Write here';
 
 //set Picup Location
-static const String setPicupLocation='Set Picup Location';
-static const String defaultLocation='568/KL, BMH Road, Glen Park';
-static const String savedLocation='Saved Location';
+  static const String setPicupLocation = 'Set Picup Location';
+  static const String defaultLocation = '568/KL, BMH Road, Glen Park';
+  static const String savedLocation = 'Saved Location';
 
 //saved location
-static const String currentLocation='Current Location';
-static const String setOnMap='Set On Map';
-static const String savedAddress='Saved Address';
-static const String addHome='Add Home';
-static const String addOffice='Add Office';
-
+  static const String currentLocation = 'Current Location';
+  static const String setOnMap = 'Set On Map';
+  static const String savedAddress = 'Saved Address';
+  static const String addHome = 'Add Home';
+  static const String addOffice = 'Add Office';
 
 //preview
-static const String dogSitting='Dog Sitting';
-static const String preview='Preview';
-static const String onepetsdate='1 Pet(s), from Thu 30 Jun, 1 Day';
-static const String location2='568/KL, BMH Road, Glen Park';
-static const String previewtime='5:30 PM';
-static const String petsInfo='Pets Info';
-static const String name='Name:';
-static const String dogName=' Grigio Cham';
-static const String breed='Breed: ';
-static const String age='Age: ';
-static const String onetoyear='1-2 Year';
-static const String weight='Weight: ';
-static const String onefivekg='1-5 Kg';
+  static const String dogSitting = 'Dog Sitting';
+  static const String preview = 'Preview';
+  static const String onepetsdate = '1 Pet(s), from Thu 30 Jun, 1 Day';
+  static const String location2 = '568/KL, BMH Road, Glen Park';
+  static const String previewtime = '5:30 PM';
+  static const String petsInfo = 'Pets Info';
+  static const String name = 'Name:';
+  static const String dogName = ' Grigio Cham';
+  static const String breed = 'Breed: ';
+  static const String age = 'Age: ';
+  static const String onetoyear = '1-2 Year';
+  static const String weight = 'Weight: ';
+  static const String onefivekg = '1-5 Kg';
 
-static const String sittingCharge='Sitting Charge';
-static const String viewOurCharges='View Our Charges';
-static const String uSD='USD 5.00';
-static const String breedCharge='Breed Charge';
-static const String uSDbreed='USD 10.00';
-static const String travellingCharges='Travelling Charges';
-static const String totalBill='Total Bill';
+  static const String sittingCharge = 'Sitting Charge';
+  static const String viewOurCharges = 'View Our Charges';
+  static const String uSD = 'USD 5.00';
+  static const String breedCharge = 'Breed Charge';
+  static const String uSDbreed = 'USD 10.00';
+  static const String travellingCharges = 'Travelling Charges';
+  static const String totalBill = 'Total Bill';
 
-
-static const String paymentMethod='Payment Method';
-static const String cashOnService='Cash On Service';
-static const String onlinePayment='Online Payment';
+  static const String paymentMethod = 'Payment Method';
+  static const String cashOnService = 'Cash On Service';
+  static const String onlinePayment = 'Online Payment';
 
 //wait approval
-static const String waitForApproval='Wait for Approval';
-static const String trackYourRequest='Track Your Request';
-static const String waitForYourSitting='Wait for your sitting request to be approved by admin panel';
+  static const String waitForApproval = 'Wait for Approval';
+  static const String trackYourRequest = 'Track Your Request';
+  static const String waitForYourSitting =
+      'Wait for your sitting request to be approved by admin panel';
 
 //request status
-static const String checkTheCurrent='Check the current status of your sitting request.';
-static const String cancelRequest='Cancel Request';
-static const String requestStatus='Request Status';
+  static const String checkTheCurrent =
+      'Check the current status of your sitting request.';
+  static const String cancelRequest = 'Cancel Request';
+  static const String requestStatus = 'Request Status';
 
+//profile
+  static const String profile = 'Profile';
+  static const String adersonBulip = 'Anton Bojan';
+  static const String adersonbuilpgmail = 'antonbojan@gmail.com';
+  static const String editProfile = 'Edit Profile';
+  static const String changeLanguage = 'Change Language';
+  static const String changePassword = 'Change Password ';
 
-//profile 
-static const String profile='Profile';
-static const String adersonBulip='Aderson Bulip';
-static const String adersonbuilpgmail='adersonbuilp@gmail.com';
-static const String editProfile='Edit Profile';
-static const String changeLanguage='Change Language';
-static const String changePassword='Change Password ';
+//edit profile
+  static const String firstName = 'First Name';
+  static const String lastName = 'Last Name';
+  static const String aderson = 'Anton';
+  static const String builp = 'Bojan';
+  static const String email = 'Email';
+  static const String country = 'Country';
+  static const String unitedState = 'North Macedonia';
+  static const String phoneNumber = 'Phone Number';
+  static const String update = 'Update';
+  static const String number = '070 111 222';
 
-//edit profile 
-static const String firstName='First Name';
-static const String lastName='Last Name';
-static const String aderson='Aderson';
-static const String builp='Builp';
-static const String email='Email';
-static const String country='Country';
-static const String unitedState='United State';
-static const String phoneNumber='Phone Number';
-static const String update='Update';
-static const String number='693 563 9843';
-
-//pet profile 
-static const String petProfile='Pet Profile';
-static const String petName='Pet Name';
-static const String petGender='Pet Gender';
-static const String petType='Pet Type';
-static const String petBreed='Pet Breed';
-static const String petDateofBirth='Pet Date of  Birth';
-static const String petWeight='Pet Weight';
-static const String updateProfile='Update Profile';
-static const String remove='Remove';
-static const String male='Male';
-
+//pet profile
+  static const String petProfile = 'Pet Profile';
+  static const String petName = 'Pet Name';
+  static const String petGender = 'Pet Gender';
+  static const String petType = 'Pet Type';
+  static const String petBreed = 'Pet Breed';
+  static const String petDateofBirth = 'Pet Date of  Birth';
+  static const String petWeight = 'Pet Weight';
+  static const String updateProfile = 'Update Profile';
+  static const String remove = 'Remove';
+  static const String male = 'Male';
 
 //saved location
-static const String locationCalifornia='568/KL, BMH Road, Glen Park, California, United State';
-static const String addNewAddress='Add New Address';
-
+  static const String locationCalifornia =
+      '568/KL, BMH Road, Glen Park, California, United State';
+  static const String addNewAddress = 'Add New Address';
 
 //payment method
-static const String cashMall='Cash Mall';
-static const String addAccount='Add Account';
-static const String add='Add';
-static const String aderson54='@aderson546897';
-static const String edit='Edit';
-static const String paytm='Paytm';
-static const String payPal='PayPal';
-static const String payoneer='Payoneer';
-static const String payeer='Payeer';
-static const String skrill='Skrill';
-static const String sam21='@sam2156389';
+  static const String cashMall = 'Cash Mall';
+  static const String addAccount = 'Add Account';
+  static const String add = 'Add';
+  static const String aderson54 = '@ab546897';
+  static const String edit = 'Edit';
+  static const String paytm = 'Visa';
+  static const String payPal = 'PayPal';
+  static const String payoneer = 'Payoneer';
+  static const String payeer = 'Payeer';
+  static const String skrill = 'Skrill';
+  static const String sam21 = '@sam2156389';
 
 //cash mail
-static const String username ='Username';
-static const String enterusername ='Enter username';
-static const String emailAddress ='Email Address';
-static const String enterEmailAddress ='Enter email address';
-static const String addNow ='Add Now';
+  static const String username = 'Username';
+  static const String enterusername = 'Enter username';
+  static const String emailAddress = 'Email Address';
+  static const String enterEmailAddress = 'Enter email address';
+  static const String addNow = 'Add Now';
 
 //Change Languagge
-static const String selectLanguage='Select Language';
-static const String english='English';
-static const String deutsch='Deutsch';
-static const String espanolr='Espanolr';
-static const String francais='Francais';
-static const String italiano='Italiano';
+  static const String selectLanguage = 'Select Language';
+  static const String english = 'English';
+  static const String deutsch = 'Deutsch';
+  static const String espanolr = 'Espanolr';
+  static const String francais = 'Francais';
+  static const String italiano = 'Italiano';
 
 //change password
-static const String enterOldPassword='Enter Old Password';
-static const String enterConfrimPassword='Enter Confirm Password';
+  static const String enterOldPassword = 'Enter Old Password';
+  static const String enterConfrimPassword = 'Enter Confirm Password';
 
-
-//drawer 
-static const String ourCharges='Our Charges';
-static const String serviceHistory='Service History';
-static const String rateUs='Rate Us';
-static const String shareApp='Share App';
-static const String aboutUs='About Us';
-static const String referFriend='Refer Friends';
-static const String helpCenter='Help Center';
-static const String termsCondition='Terms & Condition';
-static const String privacyPolicy='Privacy & Policy';
-static const String deleteAccount='Delete Account';
-static const String signOut='Sign Out';
+//drawer
+  static const String ourCharges = 'Our Charges';
+  static const String serviceHistory = 'Service History';
+  static const String rateUs = 'Rate Us';
+  static const String shareApp = 'Share App';
+  static const String aboutUs = 'About Us';
+  static const String referFriend = 'Refer Friends';
+  static const String helpCenter = 'Help Center';
+  static const String termsCondition = 'Terms & Condition';
+  static const String privacyPolicy = 'Privacy & Policy';
+  static const String deleteAccount = 'Delete Account';
+  static const String signOut = 'Sign Out';
 
 //our charges
-static const String sitType='Sit Type';
-static const String charge='Charge';
-static const String year='Year';
-static const String us15='\$15.00+Feed Charge';
-static const String us5='\$5.00+Feed Charge';
-static const String us30='\$30.00+Feed Charge';
-static const String oneto6='1-6 Month';
-static const String oneTwoYear='1-2 Year';
-static const String twoFiveYear='2-5 Year';
-static const String fiveTemYear='5-10 Year';
-static const String tenPlusYear='10+ Year';
-static const String fiveTenKg='5-10 Kg';
-static const String tentowentyKg='10-20 Kg';
-static const String twentyFourtyKg='20-40 Kg';
-static const String fourtyplustKg='40+ Kg';
-static const String americanCurl='American Curl';
-static const String americanRingtailg='American Ringtailg';
-static const String ages='Age';
-static const String weights='Weight';
-
-
-
-
-
+  static const String sitType = 'Sit Type';
+  static const String charge = 'Charge';
+  static const String year = 'Year';
+  static const String us15 = '\$15.00+Feed Charge';
+  static const String us5 = '\$5.00+Feed Charge';
+  static const String us30 = '\$30.00+Feed Charge';
+  static const String oneto6 = '1-6 Month';
+  static const String oneTwoYear = '1-2 Year';
+  static const String twoFiveYear = '2-5 Year';
+  static const String fiveTemYear = '5-10 Year';
+  static const String tenPlusYear = '10+ Year';
+  static const String fiveTenKg = '5-10 Kg';
+  static const String tentowentyKg = '10-20 Kg';
+  static const String twentyFourtyKg = '20-40 Kg';
+  static const String fourtyplustKg = '40+ Kg';
+  static const String americanCurl = 'American Curl';
+  static const String americanRingtailg = 'American Ringtailg';
+  static const String ages = 'Age';
+  static const String weights = 'Weight';
 
 //Our Charges (Calculate)
-static const String chargeCalculate='Our Charges (Calculate)';
-static const String calculateNow='Calculate Now';
-static const String chargeWilbePay='Charge (You will be pay)';
-static const String zero='\$  0.00';
-static const String petAge='Pet Age';
+  static const String chargeCalculate = 'Our Charges (Calculate)';
+  static const String calculateNow = 'Calculate Now';
+  static const String chargeWilbePay = 'Charge (You will be pay)';
+  static const String zero = '\$  0.00';
+  static const String petAge = 'Pet Age';
 
 //service history
-static const String sittingRequest='Sitting Request';
-static const String approved='Approved';
-static const String rejected='Rejected';
-static const String pending='Pending';
-static const String tabAStarToSet='Tap a star to set your rating. Add more description here if you want.';
-static const String writeHereYour='write here your comment';
-static const String nameGrigioCham='Name: Grigio Cham';
-static const String ageYear='Age: 1-2 Year';
-static const String weightKg='Weight: 1-5 Kg';
+  static const String sittingRequest = 'Sitting Request';
+  static const String approved = 'Approved';
+  static const String rejected = 'Rejected';
+  static const String pending = 'Pending';
+  static const String tabAStarToSet =
+      'Tap a star to set your rating. Add more description here if you want.';
+  static const String writeHereYour = 'write here your comment';
+  static const String nameGrigioCham = 'Name: Grigio Cham';
+  static const String ageYear = 'Age: 1-2 Year';
+  static const String weightKg = 'Weight: 1-5 Kg';
 
 //Community Screen
-static const String userName='User Name';
-static const String emailaddress='email address';
-static const String female='Female';
-static const String custom='Custom';
-
-
-
-
-
-
-
-
-
+  static const String userName = 'User Name';
+  static const String emailaddress = 'email address';
+  static const String female = 'Female';
+  static const String custom = 'Custom';
 }
